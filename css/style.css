@@ -14,12 +14,13 @@ h1 {
 }
 
 #pictures {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     gap: 16px;/*Adjust the gap as needed, not done */
     flex-direction: column;
     justify-content: center;
     columns: 3;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 p {
